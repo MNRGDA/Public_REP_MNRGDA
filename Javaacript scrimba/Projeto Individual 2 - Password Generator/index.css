@@ -1,0 +1,99 @@
+            html {
+                background-color: #FFF;
+            }
+            
+            body {
+                padding: 100px 70px 0px 90px;
+                width: 550px;
+                height: 550px;
+                background: #1F2937;
+            }
+            /* heading */
+            
+            #heading {
+                width: 354px;
+                height: auto;
+                font-family: 'Karla';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 40px;
+                line-height: 40px;
+                /* or 100% */
+                letter-spacing: -0.025em;
+                /* white */
+                color: #FFFFFF;
+            }
+            
+            #heading p {
+                letter-spacing: -0.025em;
+                color: #10B981;
+                margin: 0;
+            }
+            
+            #supporting-text {
+                /* Supporting text */
+                width: 354px;
+                height: auto;
+                /* text-xl/leading-7/font-normal */
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 19px;
+                line-height: 28px;
+                /* identical to box height, or 140% */
+                /* Medium grey */
+                color: #D5D4D8;
+                margin-top: 0;
+            }
+            /*button {}*/
+            
+            #generate-password-btn {
+                /* Button */
+                /* Auto layout */
+                display: flex;
+                align-items: center;
+                padding: 5px;
+                margin-top: 10px;
+                width: auto;
+                height: auto;
+                background: #10B981;
+            }
+            
+            #generate-password-btn img {
+                height: 24px;
+            }
+            
+            #generate-password-btn p {
+                /* text-base/leading-6/font-medium */
+                margin: 2px;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 24px;
+                /* identical to box height, or 150% */
+                /* white */
+                color: #FFF;
+            }
+            
+            .center-object {
+                display: flex;
+                margin-left: auto;
+                margin-right: auto;
+                width: fit-content;
+            }
+            
+            .password-btn {
+                width: 211px;
+                height: 39px;
+                background: #273549;
+                border-radius: 10px;
+                margin: 20px;
+            }
+            
+            .separator {
+                width: 446px;
+                height: 0px;
+                border: 1px solid #2F3E53;
+                margin-top: 20px;
+                margin-bottom: 10px;
+            }

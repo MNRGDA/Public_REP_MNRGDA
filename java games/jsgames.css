@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: bisque;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.title{
+    color: aquamarine;
+    border-style: dashed;
+    border-radius: 10px;
+    border-color: aquamarine;
+    border-bottom-color:aqua;
+    border-width: 5px;
+    padding: 10px;
+    text-align: center;
+}
+/*start rock paper scissors css*/
+.rpc{
+    margin: 10px auto;
+    width: fit-content;
+    padding: 5px;
+    border-style: double;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: aquamarine;
+    text-align: center;
+}
+
+
+.rpc > div > button{
+    background-color: bisque;
+    font-size: 150%;
+    border-radius: 10px;
+    margin: 5px 10px;
+    width: 110px;
+}
+
+.memGame{
+    
+    margin: 10px auto;
+    width: fit-content;
+    padding: 5px;
+    border-style: double;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: aquamarine;
+    text-align: center;
+}
+.memGame > #gridMemGame{
+    display: flex;
+    width: 400px;
+    height: 300px;
+    flex-wrap: wrap;
+}
+
+/*end rock paper scissors css*/
+
